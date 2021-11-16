@@ -1,7 +1,7 @@
-## minecraft-server-control
+## Minecraft-Server-Control
 How to remotely start and turn off a minecraft server via discord. **(In order for it to work, the pc must be on at times when runninng the commands.)**
 
-## downloads
+## Downloads
 https://github.com/Arvinth-Krishna/Reco-PC-Server
 ^ This is the setup so you can send commands through discord that the pc can then read. 
 (WARNING: I couldn't find a way to disable commands from just the whole bot. I just deleted everything in the module files except __init__.py, abort.py, and launch_module.py)
@@ -14,13 +14,13 @@ How to make it multiplayer without port forwarding
 
 AutoHotKey was used to shutdown the server. Download for [AutoHotKey](https://www.autohotkey.com/)
 
-## AutoHotKey to Gracefully turn the Minecraft Server 
+## AutoHotKey To Gracefully Turn The Minecraft Server 
 You are wondering why I can't just use a .bat file to shutdown the server. A .bat cannot write to a different .bat file. 
 If there is, I couldn't figure a way. I just used autohotkey. 
 If you use a .bat file to /taskkill, this unfortantely won't save the minecraft server, and/or may cause some server corruption. 
 
 
-## How to get it working
+## How To Get It Working
 **First, I will assume that you have already created the discord server with the bot ready to go. 
 And also, that your minecraft server is setup. 
 If you need a tutorial on how to do everything, then I will link another post.**
